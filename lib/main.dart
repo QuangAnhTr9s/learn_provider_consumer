@@ -3,7 +3,8 @@ import 'package:provider/provider.dart';
 
 
 //dùng Provider.of thì sẽ ko update Wiget nếu listen  = false
-//dùng Consumer sẽ update Wiget
+//dùng Consumer sẽ update Wiget.
+//
 void main() {
   runApp(ChangeNotifierProvider(
     create: (context) => MySetting(),
